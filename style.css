@@ -40,7 +40,7 @@ section {
   border-radius: 0.625rem;
 }
 
-section > div {
+section>div {
   padding: 2rem;
   padding-top: 1.5rem;
   border-radius: 0.5rem;
@@ -80,7 +80,8 @@ form {
   margin: 1.25rem 0;
 }
 
-input, select {
+input,
+select {
   all: unset;
   border: 2px solid #9147ff;
   border-radius: 0.5rem;
@@ -110,4 +111,45 @@ button:hover {
   cursor: pointer;
   transform: translateY(-2px);
   box-shadow: 0 5px 1rem rgba(255, 248, 107, 0.2);
+}
+
+button:disabled {
+  transition: initial;
+  transform: initial;
+  box-shadow: initial;
+  cursor: not-allowed;
+  color: black;
+}
+
+.loading {
+  animation: pulse 1s infinite;
+
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+#aiResponse {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  border-left: 4px solid #43e7ad;
+  color: rgba(255, 255, 255);
+}
+
+#aiResponse ul,
+#aiResponse ol {
+  padding-left: 1.5rem;
+  opacity: 0.8;
+}
+
+#aiResponse p {
+  color: white;
+}
+
+.hidden {
+  display: none;
 }

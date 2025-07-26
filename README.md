@@ -21,6 +21,8 @@
 - Protocol
   - Protocolo
   - Conjunto de Regras
+- Methods HTTP (Verbos): Get, Post, Patch/Put, Delete
+- Headers (Cabeçalhos): Instruções/Informações extras para cada chamada
 
 # URL
 
@@ -109,3 +111,33 @@ A partir disso o HTML é impactado visualmente.
 - Object
 - Model
 
+# API
+
+- Application
+- Programming
+- Interface
+- JSON: JavaScript Object Notation
+
+# CDN
+
+- Content
+- Delivery
+- Network
+
+# LLM
+
+- Large
+- Language
+- Model
+
+# Agentes AI
+
+- Tools (Ferramentas): permitem uso de código, ou apps, ou qualquer informação extra.
+- Melhor contexto
+- Engenharia de prompt: como fazer a melhor pergunta para sua inteligência artificial e extrair o melhor dela. Ex: usar markdown
+
+# Engenharia de prompt
+
+- One shot: uma única pergunta sem muito contexto.
+- Few shot: são apresentados exemplos do que se espera.
+- Chain of Thought: Cadeia de pensamento para a IA responder gradativamente conforme a instrução.

@@ -28,23 +28,23 @@
         <p>Pergunte sobre estratégias, builds e dicas para seus jogos!</p>
 
         <form id="form">
-          <input id="apiKey" type="password" placeholder="Informe a API Key do Gemini" required />
+          <input id="apiKey" type="password" placeholder="Informe a API Key do Gemini"  />
 
-          <select id="gameSelect" required>
+          <select id="gameSelect" >
             <option value="">Selecione um jogo</option>
             <option value="valorant">Valorant</option>
-            <option value="lol">League of Legends</option>
+            <option value="minecraft">Minecraft</option>
             <option value="csgo">CS:GO</option>
           </select>
 
-          <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC ..." required />
+          <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC ..."/>
 
           <button id="askButton">
             Perguntar
           </button>
         </form>
 
-        <div id="aiResponse">
+        <div id="aiResponse" class="hidden">
           <div class="response-content">
             
           </div>
@@ -53,6 +53,7 @@
     </section>
   </main>
 
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
   <script src="./script.js"></script>
 </body>
 
