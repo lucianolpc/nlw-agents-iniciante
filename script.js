@@ -13,7 +13,6 @@ const markDownToHTML = (markDownText) => {
   return converter.makeHtml(markDownText);
 }
 
-// AIzaSyAG1uIV9gPo73gu8_XqPP7jU8Q_R6USk-4
 
 const askAI = async (question, game, apiKey) => {
   const model = "gemini-2.5-flash";
